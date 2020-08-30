@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2015 by original authors @ fontello.com</metadata>
+<defs>
+<font id="nfinance" horiz-adv-x="1000" >
+<font-face font-family="nfinance" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="right-dir" unicode="&#xe800;" d="m321 350q0-14-10-25l-250-250q-11-11-25-11t-25 11-11 25v500q0 15 11 25t25 11 25-11l250-250q10-10 10-25z" horiz-adv-x="357.1" />
+<glyph glyph-name="left-open-1" unicode="&#xe801;" d="m308 349l346-346-154-154-500 500 500 500 154-154z" horiz-adv-x="654" />
+<glyph glyph-name="left-dir" unicode="&#xe802;" d="m357 600v-500q0-14-10-25t-26-11-25 11l-250 250q-10 11-10 25t10 25l250 250q11 11 25 11t26-11 10-25z" horiz-adv-x="357.1" />
+<glyph glyph-name="up" unicode="&#xe803;" d="m660 336l-192 0 0-350-276 0 0 350-192 0 330 380z" horiz-adv-x="660" />
+<glyph glyph-name="right-open-1" unicode="&#xe804;" d="m154 849l500-500-500-500-154 154 346 346-346 346z" horiz-adv-x="654" />
+<glyph glyph-name="down" unicode="&#xe805;" d="m660 366l-330-380-330 380 192 0 0 350 276 0 0-350 192 0z" horiz-adv-x="660" />
+<glyph glyph-name="angle-left" unicode="&#xe808;" d="m350 546q0-7-6-12l-219-220 219-219q6-6 6-13t-6-13l-28-28q-5-5-12-5t-13 5l-260 260q-6 6-6 13t6 13l260 260q5 6 13 6t12-6l28-28q6-5 6-13z" horiz-adv-x="357.1" />
+<glyph glyph-name="angle-right" unicode="&#xe809;" d="m332 314q0-7-6-13l-260-260q-5-5-12-5t-13 5l-28 28q-6 6-6 13t6 13l219 219-219 220q-6 5-6 12t6 13l28 28q5 6 13 6t12-6l260-260q6-5 6-13z" horiz-adv-x="357.1" />
+</font>
+</defs>
+</svg>

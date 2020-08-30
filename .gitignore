@@ -1,0 +1,6 @@
+.codekit-cache
+node_modules
+vendor/*
+config.codekit
+.DS_Store
+*.sublime-*

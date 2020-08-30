@@ -1,0 +1,100 @@
+#main
+  margin-top: 40px
+  min-height: 250px
+  position: relative
+
+.portfolio-table
+
+  tbody
+
+    tr
+
+
+      &:hover
+        background: fade-out($neutral-blue, 0.8)
+        cursor: pointer
+
+
+
+  .buy
+
+    display: flex
+    flex-direction: row-reverse
+
+    .buy-button
+      background: $neutral-blue
+      position: relative
+      padding: 10px
+      font-weight: 400
+      letter-spacing: 0.5px
+      width: 205px
+      text-align: center
+      color: white
+      text-decoration: none
+      align-self: flex-end
+      &:hover
+        background-color: fade-out($neutral-blue, 0.1)
+
+    &-td
+      margin: 0
+      padding: 0
+    &-tr:hover
+      background: #fff
+
+  .details
+
+    position: absolute
+    cursor: default
+    top: -10px
+    left: -10px
+    bottom: -10px
+    right: -10px
+    box-shadow: 0px 0px 2px fade-out($neutral-blue, 0.2)
+    padding: 10px
+    min-height: 280px
+    border-radius: 5px
+
+    justify-content: space-around
+    z-index: 9
+    background: fade-out(#fff, 0.04)
+    transform: scale(0)
+    transition: all 100ms cubic-bezier(0.36, 1.18, 1, 1.2)
+
+    &.show
+      display: flex !important
+      transform: scale(1)
+
+    .detail-group
+      width: 300px
+      +clearfix
+      img
+        margin-top: 40px
+
+      h3
+        color: $neutral-blue
+        font-weight: 900
+
+      .button
+        float: right
+        margin-top: 20px
+
+      .detail-container
+        display: flex
+        margin: 5px 0
+        justify-content: space-between
+    .title
+      font-weight: bold
+    .info
+      font-weight: 100
+      width: 170px
+    .close
+      cursor: pointer
+      position: absolute
+      font:
+        weight: 900
+        size: 20px
+      top: 15px
+      right: 15px
+
+      &:hover
+        color: fade-out(#4090ff, 0.2)

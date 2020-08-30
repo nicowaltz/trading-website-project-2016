@@ -1,0 +1,69 @@
+@import tools/tools
+
+body, html
+
+  margin: 10px auto
+
+  font: 1em 'Helvetica Neue', sans-serif
+
+pre
+  text-align: left
+  display: inline-block
+
+ul
+  list-style: none
+
+
+a
+  text-decoration: none
+  color: $light-blue
+  &:visited
+
+    text-decoration: none
+
+  &:hover
+    text-decoration: underline
+
+
+  &::before, &::after
+    text-decoration: none
+
+
+
+table
+
+  position: relative
+  display: inline-block
+  box-shadow: 0px 0px 1px #bbb
+  text-align: left
+
+  td, th
+    padding: 10px 20px
+    margin: 0
+
+  td
+    font-weight: 200
+
+  thead
+    background: #eee
+
+
+input[type="text"], input[type="password"]
+
+  border: none
+  border-radius: 3px
+  box-shadow: 0px 0px 1px fade-out(gray, 0.5)
+  padding: 6px
+  width: 150px
+  font-size: 12px
+
+
+  &::placeholder
+    color: fade-out(gray, 0.3)
+
+
+
+
+  &:focus
+    box-shadow: 0px 0px 1px fade-out($neutral-blue, 0.2)
+    outline: none

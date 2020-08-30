@@ -1,0 +1,18 @@
+{
+    "autoload": {
+      "psr-4": {
+        "nFinance\\": "app/nFinance"
+      }
+    },
+
+    "require": {
+        "sunra/php-simple-html-dom-parser": "v1.5.0",
+        "nikic/fast-route": "^0.6.0",
+        "slim/slim": "^3.0",
+        "nesbot/carbon": "^1.20",
+        "symfony/process": "^2.7",
+        "alexgarrett/violin": "^2.0"
+    },
+    "require-dev": {
+    }
+}
